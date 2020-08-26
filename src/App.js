@@ -4,6 +4,7 @@ import "./App.css";
 // Components
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import Contador from "./components/ItemCount"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
       </header>
         <Home greeting="Hola mundo" />
+        <Contador  Min="1" Max="11" Initial="1" />
     </div>
   );
 }

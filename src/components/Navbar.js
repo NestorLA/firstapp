@@ -4,7 +4,7 @@ import CartIcon from "./CartIcon";
 class Navbar extends Component {
   render() {
     return (
-      <div className="container">        
+      <div className="container-fluid">        
           <div className="col-12">
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
               <a className="navbar-brand" href="#">
