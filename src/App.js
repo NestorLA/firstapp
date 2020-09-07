@@ -1,10 +1,15 @@
 import React from "react";
 import "./App.css";
 
+// Services
+import getProductos from "./services/productoService"
+
+
 // Components
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Contador from "./components/ItemCount"
+import ItemList from "./components/ItemList";
 
 function App() {
   return (
@@ -13,7 +18,8 @@ function App() {
         <Navbar />
       </header>
         <Home greeting="Hola mundo" />
-        <Contador  Min="1" Max="11" Initial="1" />
+        <Contador  Min="1" Max="10" Initial="1" />
+        <ItemList getProductos={getProductos} />
     </div>
   );
 }

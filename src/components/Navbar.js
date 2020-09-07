@@ -7,7 +7,7 @@ class Navbar extends Component {
       <div className="container-fluid">        
           <div className="col-12">
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand" href="/">
                 E-Commerce
               </a>
               <button
@@ -28,19 +28,19 @@ class Navbar extends Component {
               >
                 <ul className="navbar-nav mr-auto">
                   <li className="nav-item active">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="/">
                       Home <span className="sr-only">(current)</span>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="/products">
                       Productos
                     </a>
                   </li>
                   <li className="nav-item dropdown">
                     <a
                       className="nav-link dropdown-toggle"
-                      href="#"
+                      href="/profile"
                       id="navbarDropdown"
                       role="button"
                       data-toggle="dropdown"
@@ -53,14 +53,14 @@ class Navbar extends Component {
                       className="dropdown-menu"
                       aria-labelledby="navbarDropdown"
                     >
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="/registro">
                         Registro
                       </a>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="/login">
                         Login
                       </a>
                       <div className="dropdown-divider"></div>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="/contacto">
                         Contacto
                       </a>
                     </div>
