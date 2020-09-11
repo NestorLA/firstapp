@@ -4,7 +4,7 @@ function Contador(props) {
   const [count, setCount] = useState(props.Initial);
 
   return (
-    <div className="container">
+    <>
       <p className="font-weight-bold">Contador: {count}. </p>
       <button
         className="btn btn-primary p-3"
@@ -18,7 +18,7 @@ function Contador(props) {
       >
         -
       </button>
-    </div>
+    </>
   );
 }
 
