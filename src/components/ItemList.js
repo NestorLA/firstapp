@@ -3,7 +3,7 @@ import Item from "./Item";
 import {getProductos} from "../services/productoService";
 
 const ItemList = () => {
-  const [productos, setProductos] = useState();
+  const [productos, setProductos] = useState([]);
   const [error, setError] = useState("");
 
   getProductos()
